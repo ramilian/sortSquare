@@ -13,7 +13,7 @@
 
 class Circle : public Figure {
 public:
-    Circle(PointF p1, PointF p2);
+    Circle(PointF p1 = PointF(0.0,0.0), PointF p2 = PointF(0.0,0.0));
     virtual ~Circle();
     double get_perimeter();
     double get_square();
